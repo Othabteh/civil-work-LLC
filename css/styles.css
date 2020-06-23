@@ -1,5 +1,5 @@
 body{
-    background-color:#ddf3f5;
+    background-color:#d6efc7;
 }
 h1{
     text-align: center;
@@ -20,19 +20,19 @@ h3{
     text-align: center;
 }
 .civil-img{
-    width: 35%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    width: 45%;
+    float: left;
+    margin-right: 30px;
 }
 
 .quality-img{
-    width: 25%;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    width: 45%;
+    float: right;
+    margin-left: 30px;
 }
 
 p{
-    margin-right: 30px;
+    line-height: 2;
 }
 hr{
     border: dotted #a0c1b8 6px;
@@ -46,3 +46,19 @@ hr{
 }
 #ul-top-hyper{
     text-align: center;
+}
+
+.main-cont{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.contact-me{
+    padding: 20px 0 20px;
+    text-align: center;
+
+}
+.footer-link{
+    margin:20px 100px
+}
