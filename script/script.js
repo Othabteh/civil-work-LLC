@@ -41,20 +41,20 @@ userInformation();
 
 function userOrder() {
 
-    alert(" at civil work we provids our clients with the best designs of houses and hotels.");
-    var userWant = prompt("what do you want to order house or hotel?");
-    while (userWant !== 'house' && userWant !== 'hotel') {
-        userWant = prompt("what do you want to order house or hotel?");
+    alert(" at civil work we provids our clients with the best designs of commercial and Residential buldings.");
+    var userWant = prompt("what do you want to order commercial or Residential?");
+    while (userWant !== 'commercial' && userWant !== 'Residential') {
+        userWant = prompt("what do you want to order commercial or Residential?");
     }
 
     var orderNumbers = prompt('how many project do you want to order sir?');
     for (var i = 0; i < orderNumbers; i++) {
-        if (userWant === 'house') {
+        if (userWant === 'commercial') {
 
-            document.write('<img src="images/house.png">');
-        } else if (userWant === 'hotel') {
+            document.write('<img src="https://images.all-free-download.com/images/graphicthumb/business_buildings_design_vector_519253.jpg">');
+        } else if (userWant === 'Residential') {
 
-            document.write('<img src="images/hotel.png">');
+            document.write('<img src="https://lh3.googleusercontent.com/proxy/oe7IigWR2O6ITqLH0B1kWPgahx-QUAmnbtpwKQDj3ni1rTbeI8X8PqjNqyxiZM68Vc23faXeUdPd7_hR6Z_dbujcs-rs7q-oevQh3bYrBkTIOUwPF0uZ8ap4Wf4TU9dZWTAuDQyLMQ">');
         }
     }
 
