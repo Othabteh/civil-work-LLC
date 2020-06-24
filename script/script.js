@@ -1,12 +1,12 @@
 'use strict';
-function userOrder() {
+function userInformation() {
     var greeting;
     var greeting2;
     var greeting3;
     var greeting4;
 
-    var yourName=prompt("please enter your name");
-    greeting4=('Welcome ' + yourName );
+    var yourName = prompt("please enter your name");
+    greeting4 = ('Welcome ' + yourName);
 
     var yourage = prompt("please enter your age! ");
     if (yourage > 18) {
@@ -34,7 +34,30 @@ function userOrder() {
 
     document.write('<h3>' + greeting4 + '</h3>');
     document.write('<h3>' + greeting + '</h3>');
-    document.write('<h3>'+ greeting2 + '</h3>');
-    document.write('<h3>'+ greeting3 + '</h3>');
+    document.write('<h3>' + greeting2 + '</h3>');
+    document.write('<h3>' + greeting3 + '</h3>');
 }
-userOrder(); 
+userInformation();
+
+function userOrder() {
+
+    alert(" at civil work we provids our clients with the best designs of houses and hotels.");
+    var userWant = prompt("what do you want to order house or hotel?");
+    while (userWant !== 'house' && userWant !== 'hotel') {
+        userWant = prompt("what do you want to order house or hotel?");
+    }
+
+    var orderNumbers = prompt('how many project do you want to order sir?');
+    for (var i = 0; i < orderNumbers; i++) {
+        if (userWant === 'house') {
+
+            document.write('<img src="images/house.png">');
+        } else if (userWant === 'hotel') {
+
+            document.write('<img src="images/hotel.png">');
+        }
+    }
+
+}
+
+userOrder();
